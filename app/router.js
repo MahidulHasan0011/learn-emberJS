@@ -13,5 +13,5 @@ Router.map(function () {
   this.route('not-found', { path: '/*path' });
 
   // re-write the route path to shopping-cart
-  this.route('cart', {path: 'shopping-cart'});
+  this.route('cart', { path: 'shopping-cart' });
 });
