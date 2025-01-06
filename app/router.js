@@ -10,4 +10,6 @@ Router.map(function () {
   this.route('clothes', function () {
     this.route('t-shirt');
   });
+  // dynamic route
+  this.route('item',{path:'/item/:item_id'});
 });
