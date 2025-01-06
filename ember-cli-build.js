@@ -6,8 +6,8 @@ module.exports = function (defaults) {
   const app = new EmberApp(defaults, {
     // Add options here
     sassOptions: {
-      extension: "scss",
-    }
+      extension: 'scss',
+    },
   });
 
   return app.toTree();
