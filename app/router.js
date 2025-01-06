@@ -10,5 +10,8 @@ Router.map(function () {
   // dynamic route
   this.route('item', { path: '/item/:item_id' });
   // not found route
-  this.route('not-found',{path: '/*path'});
+  this.route('not-found', { path: '/*path' });
+
+  // re-write the route path to shopping-cart
+  this.route('cart', {path: 'shopping-cart'});
 });
