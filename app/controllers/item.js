@@ -14,7 +14,7 @@ export default class ItemController extends Controller {
   onChangeColor(newColor) {
     this.color = newColor;
   }
-  @action 
+  @action
   toggleZoom() {
     this.isZoomed = !this.isZoomed;
   }

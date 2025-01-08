@@ -9,8 +9,7 @@ export default class ItemRoute extends Route {
     return product;
   }
 
-
-  // set color in every time in controller 
+  // set color in every time in controller
   setupController(controller, model) {
     super.setupController(controller, model);
     controller.color = model.colors[0].color;
