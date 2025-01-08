@@ -4,5 +4,4 @@ export default class IndexRoute extends Route {
   model() {
     return products;
   }
-
 }

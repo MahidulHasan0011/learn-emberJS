@@ -11,6 +11,4 @@ export default class Product extends Component {
     this.number++;
   }
   // @action
-
-
 }
