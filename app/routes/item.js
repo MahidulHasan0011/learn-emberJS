@@ -8,4 +8,11 @@ export default class ItemRoute extends Route {
     console.log('product', product);
     return product;
   }
+
+
+  // set color in every time in controller 
+  setupController(controller, model) {
+    super.setupController(controller, model);
+    controller.color = model.colors[0].color;
+  }
 }
