@@ -1,11 +1,14 @@
 import Route from '@ember/routing/route';
+import { inject as service } from '@ember/service';
 export default class IndexRoute extends Route {
+  @service store;
   async model() {
-    const response = await fetch('/api/items.json');
-    console.log('response', response);
-    const { products } = await response.json();
-    console.log('data', products);
+ 
+    // const response = await fetch('/api/items.json');
+    // const { products } = await response.json();
+    
+    
 
-    return products;
+    return this.store.findAll('product');
   }
 }

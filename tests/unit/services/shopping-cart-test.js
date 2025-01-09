@@ -9,4 +9,5 @@ module('Unit | Service | shopping-cart', function (hooks) {
     let service = this.owner.lookup('service:shopping-cart');
     assert.ok(service);
   });
+  
 });
