@@ -1,3 +1,7 @@
-@import './homepage';
-@import './product';
-@import './cart';
+// @import './homepage';
+// @import './product';
+// @import './cart';
+// above those line are deprecated in sass 3.10
+@use './homepage';
+@use './product';
+@use './cart';
